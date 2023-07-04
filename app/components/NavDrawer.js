@@ -97,9 +97,14 @@ export default function NavDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Ability Plus Drainage Company
+            {/* Ability Plus Drainage Company */}
           </Typography>
-          <img src="images/logo.webp" alt="logo" width="200rem" />
+          <img
+            className="logo"
+            src="images/logo.webp"
+            alt="logo"
+            width="200rem"
+          />
         </Toolbar>
       </AppBar>
       <Drawer
@@ -157,9 +162,7 @@ export default function NavDrawer() {
           ))}
         </List> */}
       </Drawer>
-      <Main open={open}>
-        <img src="./assets/hero1.webp" />
-      </Main>
+      <Main open={open}></Main>
       {/* <Main open={open}>
         <DrawerHeader />
         <Typography paragraph>
