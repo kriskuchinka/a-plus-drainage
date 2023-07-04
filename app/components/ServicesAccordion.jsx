@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function SimpleAccordion() {
   return (
-    <div>
+    <>
       <h1>Our Service Area</h1>
       <h3>
         We service the following cities in parts of Clackamas, Columbia,
@@ -46,6 +46,6 @@ export default function SimpleAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-    </div>
+    </>
   );
 }
